@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import Image from 'next/image';
 import { FiChevronRight, FiStar, FiPlay } from 'react-icons/fi';
 
 // Mock data for trending content
@@ -55,11 +56,12 @@ const ContentCard = ({ content, index }) => {
             className="relative group overflow-hidden rounded-xl transform transition-all duration-500 hover:scale-105 hover:shadow-xl hover:shadow-primary/20"
             style={{ animationDelay: `${index * 0.1}s` }}
         >
-            <div className="w-full h-48 md:h-64 overflow-hidden">
-                <img
+            <div className="w-full h-48 md:h-64 overflow-hidden relative">
+                <Image
                     src={content.image}
                     alt={content.title}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
                 />
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent p-4 flex flex-col justify-end">
@@ -142,7 +144,7 @@ const Content = () => {
                             Trending on <span className="text-gradient animate-text-gradient">OTTInfo</span>
                         </h2>
                         <p className="text-lg text-text-light max-w-2xl">
-                            Check out what's popular right now on our platform. From thrilling series to blockbuster movies.
+                            Check out what&apos;s popular right now on our platform. From thrilling series to blockbuster movies.
                         </p>
                     </div>
 

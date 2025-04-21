@@ -12,7 +12,7 @@ const features = [
     {
         icon: <FiDownload size={40} />,
         title: 'Download & Watch Offline',
-        description: 'Download your favorite shows and movies to watch offline when you\'re on the go.'
+        description: 'Download your favorite shows and movies to watch offline when you&apos;re on the go.'
     },
     {
         icon: <FiFilm size={40} />,
