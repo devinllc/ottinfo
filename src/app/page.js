@@ -26,14 +26,14 @@ export default function Home() {
               <p className="text-gray-300 text-left">
                 At OTTInfo, we are dedicated to bringing the most terrifying and thrilling horror content to audiences
                 around the world. Our curated selection features the best in horror cinema, including classics,
-                contemporary masterpieces, and exclusive content you won't find anywhere else.
+                contemporary masterpieces, and exclusive content you won&apos;t find anywhere else.
               </p>
             </div>
             <div className="bg-black/30 p-6 rounded-lg border border-red-900/30">
               <h3 className="text-2xl text-red-400 mb-4 font-mono">Our Story</h3>
               <p className="text-gray-300 text-left">
                 Founded by horror enthusiasts in 2023, OTTInfo was born from a passion for the macabre and
-                supernatural. We've grown from a small indie streaming service to the premier destination for
+                supernatural. We&apos;ve grown from a small indie streaming service to the premier destination for
                 horror fans, with millions of subscribers worldwide sharing our love for the genre.
               </p>
             </div>
